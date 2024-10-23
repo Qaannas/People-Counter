@@ -34,12 +34,12 @@ dataset = project.version(2).download("YOUR MODEL NAME")
 Training command:
 ```bash
 %cd {HOME}
-!yolo task=detect mode=train model=model_1.pt data=/content/datasets/PEOPLE-COUNTER-2/data.yaml epochs=25 imgsz=800 plots=True
+!yolo task=detect mode=train model=model_1.pt data=/content/datasets/'YOUR-DATA-HERE'/data.yaml epochs=25 imgsz=800 plots=True
 ```
 
 ### Model Validation
 ```bash
-!yolo task=detect mode=val model=/content/best.pt data=/content/datasets/PEOPLE-COUNTER-2/data.yaml
+!yolo task=detect mode=val model=/content/best.pt data=/content/datasets/'YOUR-DATA-HERE'/data.yaml
 ```
 
 ### People Counting
