@@ -69,5 +69,5 @@ The model is optimized using Intel's OpenVINO for better performance on Intel GP
 ## Demonstration
 Run the demonstration video to see the model in action.
 
-[Download video](./RESULTS.mp4)
+[Download video](RESULTS.mp4)
 
