@@ -60,10 +60,10 @@ The model is optimized using Intel's OpenVINO for better performance on Intel GP
     pip install -r requirements.txt
     ```
 
-2. **Run the Application**:
+2. Run the Application**:
     - Use the provided Python code to load the YOLOv8 model, process the video, and count people.
 
-3. **Optimization**:
+3. Optimization**:
     - To run the model optimized with OpenVINO, follow the instructions provided in the optimization section.
 
 ## Demonstration
