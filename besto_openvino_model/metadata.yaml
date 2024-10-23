@@ -1,0 +1,14 @@
+description: Ultralytics besto model trained on /content/datasets/PEOPLE-COUNTER-4/data.yaml
+author: Ultralytics
+date: '2024-06-03T18:19:31.481069'
+version: 8.2.27
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: PEOPLE-HUMANS
